@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container } from 'reactbulma';
-import { Text, Grid, Dot } from '@geist-ui/react';
+import { Text, Dot } from '@geist-ui/react';
 
 class Footer extends React.Component {
     render() {

@@ -16,7 +16,7 @@ const Mock = {
         var text = document.createElement("span")
         text.innerHTML = "<br/>"+value+"<br/>" + Mock.input;
         document.activeElement.blur();
-        var newInput = document.getElementById("in1");
+        // var newInput = document.getElementById("in1");
         // newInput.focus();
         console.appendChild(text);
         Mock.currentInput++;

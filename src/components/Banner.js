@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Container } from 'reactbulma';
-import { Text, Grid } from '@geist-ui/react';
+import { Grid } from '@geist-ui/react';
 
 class Banner extends React.Component {
     render() {

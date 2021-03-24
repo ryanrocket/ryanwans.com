@@ -1,13 +1,11 @@
 import React from 'react';
 
 import { Container, Section } from 'reactbulma';
-import { Text, Button, Image, Spacer } from '@geist-ui/react';
-import Mock from '../assets/ConsoleMock';
+import { Text, Spacer } from '@geist-ui/react';
 import Banner from './Banner';
 import Typed from 'react-typed';
 import Lines from './Lines';
 import HorzLine from './HorzLine.js';
-import Gradient from '../assets/Gradient.scss';
 import { Instagram, Github, Linkedin, Mail } from '@geist-ui/react-icons'
 
 const heroStrings = [

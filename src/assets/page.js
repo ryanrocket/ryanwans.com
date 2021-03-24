@@ -21,7 +21,7 @@ function Default() {
 		}
 
 		// flows
-		if(window.location.pathname == "/" || window.location.pathname == "") {
+		if(window.location.pathname === "/" || window.location.pathname === "") {
 			window.addScript("/Gradient.js");
 		}
 	});

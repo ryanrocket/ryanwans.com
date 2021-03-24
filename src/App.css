@@ -66,6 +66,9 @@ html, head, body {
      -ms-flex-align: center;
         align-items: center;
 }
+.caption p {
+  font-size: 12px!important;
+}
 
 /* Presets */
 .pre-bold {font-weight: var(--bold);}
@@ -81,9 +84,13 @@ html, head, body {
 .SingleLine:nth-child(3) {left: calc(50% + 5px)}
 .SingleLine:nth-child(4) {left: calc(75% + 5px)}
 .SingleLine:nth-child(5) {left: calc(100% + 5px)}
-.pre-bigHeader {font-size: 44px!important; font-weight: 700!important;}
+.pre-bigHeader {font-size: 44px!important; font-weight: 700!important;margin-top: 0!important;}
+.pre-smlHeader {font-size: 32px!important; font-weight: 600!important;margin-top: 0!important;}
+.pre-subHeader {font-size: 28px!important; font-weight: 500!important;margin-top: 0!important;}
 .pre-HorzLine {position: relative; z-index: 0;top:0; border-top: #444444 1px dashed; width: 100%; height: 1px; display: block; opacity: 0.21;}
-.pre-p {font-size: 15px!important; font-weight: 400!important; line-height: 20px;}
+.pre-p {font-size: 15px!important; font-weight: 400!important; line-height: 22px;}
+.pre-textgrad1 {background-image: linear-gradient(90deg, var(--gradient-color-3), var(--gradient-color-1) );-webkit-text-fill-color: transparent; -webkit-background-clip: text;}
+.pre-dot-bg {background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px,#0000 0), radial-gradient(rgba(0, 0, 0, 0.08) 1px,#0000 0);background-position: 0 0,25px 25px;background-attachment: fixed;background-size: 50px 50px;}
 
 /* Extraneous Classes */
 .footer {

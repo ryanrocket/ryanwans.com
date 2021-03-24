@@ -5,6 +5,7 @@ import { Text, Button } from '@geist-ui/react';
 
 class NavBar extends React.Component {
     render() {
+        // eslint-disable-next-line
         return (
             <div>
                 <nav className="navbar is-fixed-top" id="pre-id-navbar" style={{paddingTop: "10px", paddingBottom: "10px"}} role="navigation" aria-label="main navigation">
@@ -13,8 +14,7 @@ class NavBar extends React.Component {
                             <a className="navbar-item" href="/" style={{padding: '0', maxHeight: '60px'}}>
                                 <Text h3 style={{padding: '8px 20px', margin: '0'}}>Ryan Wans</Text>
                             </a>
-                        
-                            <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <a href="#hamburger" role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
