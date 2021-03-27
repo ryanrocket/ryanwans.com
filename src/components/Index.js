@@ -5,6 +5,7 @@ import { Text, Spacer } from '@geist-ui/react';
 import Banner from './Banner';
 import Typed from 'react-typed';
 import Lines from './Lines';
+import PreFoot from './PreFoot';
 import HorzLine from './HorzLine.js';
 import { Instagram, Github, Linkedin, Mail } from '@geist-ui/react-icons'
 
@@ -83,7 +84,9 @@ class Index extends React.Component {
                         </Text>
                     </Section>
                     <Lines style={{zIndex: '0'}} />
+                    <Spacer y={5} />
                 </Container>
+                <PreFoot message="Shoot me a message" redir="/contact" button="Contact Me" />
             </div>
         )
     }

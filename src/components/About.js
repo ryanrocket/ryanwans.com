@@ -4,6 +4,7 @@ import { Container, Section } from 'reactbulma';
 import { Text, Spacer, Divider, Image, Display } from '@geist-ui/react';
 import HorzLine from './HorzLine';
 import Lines from './Lines';
+import PreFoot from './PreFoot';
 import { Activity, CloudDrizzle, Database, Lambda } from '@geist-ui/react-icons'
 import Me from '../img/IMG_4516.JPG';
 
@@ -92,7 +93,9 @@ class About extends React.Component {
                         </Text>
                     </Section>
                     <Lines style={{zIndex: '0'}} />
+                    <Spacer y={5} />
                 </Container>
+                <PreFoot message="Shoot me a message" redir="/contact" button="Contact Me" />
             </div>
         )
     }

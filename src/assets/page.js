@@ -20,10 +20,12 @@ function Default() {
 			});
 		}
 
+		// metrics
+		window.allocateAdr = (a) => {window.ip = a.ip || null;}
+		window.addScript("https://api.ipify.org?format=jsonp&callback=window.allocateAdr");
+
 		// flows
-		if(window.location.pathname === "/" || window.location.pathname === "") {
-			window.addScript("/Gradient.js");
-		}
+		if(window.location.pathname === "/" || window.location.pathname === "" || window.location.pathname === "/contact") {window.addScript("/Gradient.js");}
 	});
 };
 
