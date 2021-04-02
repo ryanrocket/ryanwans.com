@@ -18,6 +18,7 @@
     "react-typed": "^1.2.0",
     "reactbulma": "^3.0.4",
     "sass": "^1.32.8",
+    "styled-components": "^5.2.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

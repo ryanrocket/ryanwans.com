@@ -20,11 +20,11 @@ class About extends React.Component {
                             ABOUT ME
                         </Text>
                         <Text h1 className="pre-bigHeader pre-textgrad1">
-                            Creating systems for the future.
+                            Full Stack Developer &amp; Systems Engineer
                         </Text>
                         <Spacer y={2.5} />
                         <Text h2 className="pre-subHeader">
-                            I design and build cloud-native infrastructures to tackle the most <b>robust and ambitious goals.</b>
+                            Building <b>unique</b> and <b>modern</b> systems and software for over 5 years.
                         </Text>
                         <Spacer y={6} className="is-hidden-mobile" />
                     </Section>
@@ -36,7 +36,7 @@ class About extends React.Component {
                         <HorzLine />
                         <Spacer y={0.5} />
                         <Text p className="pre-p">
-                            Hello, I'm Ryan Wans, a fullstack and systems engineer based out of Annapolis, MD. With a strong analytical and critical thinking background, 
+                            I'm Ryan Wans, a fullstack and systems engineer based out of Annapolis, MD. With a strong analytical and critical thinking background, 
                             I excel in creating, testing, and optimizing embedded systems. Some of my strongest disciplines are cloud-native application, JAMStack web-apps, 
                             systems engineering, big data analytics, and discrete mathematics. I love learning new things and I'm always ready to dive into foreign conceps, 
                             head first. Some of my favorite topics to study are philosophy, globalization, existentialism, and agile practices &amp; methodologies.

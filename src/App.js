@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import BlogHome from './components/BlogHome';
 
 import { Route } from 'react-router-dom';
+import Portfolio from './components/Portfolio';
+import Locked from './components/Locked';
 
 function App() {
   Default()
@@ -18,6 +20,12 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/blog" component={BlogHome} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/opensource" component={Locked} />
+        <Route exact path="/services" component={Locked} />
+        <Route exact path="/cdn" component={Locked} />
+        <Route exact path="/analytics" component={Locked} />
+        <Route exact path="/chatintro" component={Locked} />
        </div>
       <Footer />
     </div>
