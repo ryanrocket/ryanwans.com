@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import BlogHome from './components/BlogHome';
 import Swapa from './components/Swapa';
+import WansResearch from './components/WansResearch';
 
 import { Route } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/analytics" component={Locked} />
         <Route exact path="/chatintro" component={Locked} />
         <Route exact path="/swapa" component={Swapa} />
+        <Route exact path="/wans-research" component={WansResearch} />
        </div>
       <Footer />
     </div>
