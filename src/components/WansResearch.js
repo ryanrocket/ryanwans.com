@@ -3,23 +3,11 @@ import React from 'react';
 import { Container, Section } from 'reactbulma';
 import { Text, Spacer, Display, Image } from '@geist-ui/react';
 import Banner from './Banner';
-import Typed from 'react-typed';
 import Lines from './Lines';
 import PreFoot from './PreFoot';
 import HorzLine from './HorzLine.js';
-import { Instagram, Github, Linkedin, Mail } from '@geist-ui/react-icons'
 import D1R05C from '../img/D1R05C.png';
 import PAGS from '../img/PAGS.png';
-
-const heroStrings = [
-    "secure",
-    "fast",
-    "data-driven",
-    "accessible",
-    "unique",
-    "modern",
-    "large-scale"
-]
 
 class WansResearch extends React.Component {
     render() {
@@ -50,21 +38,13 @@ class WansResearch extends React.Component {
                             how our society operates, allowing for further innovation in the automotive, communications, aerospace, and other
                             industries. Creating a solid framework and foundation for systems such as 5G, automotive radar, and interplanetary 
                             communication is paramount for ensuring the future success of these systems. All of which, we at Wans Research help 
-                            to innovate on. 
+                            to innovate on. Our skillset, covering both digital and analog domains, allows for the creation of cutting-edge 
+                            antennas, RF front-ends, architectures, and systems that allow us to reach the aforementioned goals. 
                         </Text>
                     </Section>
                     <Section style={{position: 'relative', zIndex: '2'}}>
                         <Text className="pre-bigHeader" b>Highlighted Projects</Text>
                         <HorzLine />
-                        <Spacer y={0.5} />
-                        <Text p className="pre-p">
-                            Wans Research, founded in 2020 by Ryan Wans, focuses on creating game-changing technology in fields such as SATCOM,
-                            Radar, and communications systems through mixed-signal research. Wireless technology has, and will continue to shape
-                            how our society operates, allowing for further innovation in the automotive, communications, aerospace, and other
-                            industries. Creating a solid framework and foundation for systems such as 5G, automotive radar, and interplanetary 
-                            communication is paramount for ensuring the future success of these systems. All of which, we at Wans Research help 
-                            to innovate on. 
-                        </Text>
                         <Spacer y={2} />
                         <div className="columns">
                             <div className="column is-half">
@@ -80,7 +60,7 @@ class WansResearch extends React.Component {
                                         <li>Low Phase Noise and Jitter</li>
                                         <li>80m/s Max Detection Speed</li>
                                         <li>SPI-compatible Interface</li>
-                                        <li><a target="_blank" href="https://docs.google.com/document/d/1JKIdJDNH4xMipM4gUvHd0eHD2lFQVsR6alGso6Ij_70/edit?usp=sharing">Click to view datasheet</a></li>
+                                        <li><a rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1JKIdJDNH4xMipM4gUvHd0eHD2lFQVsR6alGso6Ij_70/edit?usp=sharing">Click to view datasheet</a></li>
                                     </ul>
                                 </Text>
                                 <Display shadow caption={<p>Top Layer 3D Render</p>}>

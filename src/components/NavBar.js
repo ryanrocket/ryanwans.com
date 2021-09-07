@@ -30,8 +30,8 @@ class NavBar extends React.Component {
                                     Portfolio
                                 </a>
 
-                                <a className="navbar-item pre-minihead" href="/blog">
-                                    Blog
+                                <a className="navbar-item pre-minihead" href="/wans-research">
+                                    Wans Research
                                 </a>
 
                                 <a className="navbar-item pre-minihead" href="/opensource">
