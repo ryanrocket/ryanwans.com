@@ -139,7 +139,7 @@ class Portfolio extends React.Component {
                         <Text h4 style={{lineHeight: '25px'}}>
                             My personal website has been a 4 year-long project, changing every year as I learn newer technologies.
                             Other than acting as a basic portfolio, I also host and provide some analytical and public services, 
-                            becuase why not?
+                            because why not?
                         </Text>
                         <Spacer y={1.5} />
                         <div className="columns">
