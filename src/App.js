@@ -14,6 +14,8 @@ import Locked from './components/Locked';
 
 function App() {
   Default()
+  return(<div>Website no longer used.</div>);
+  /*
   return (
     <div>
       <NavBar />
@@ -34,6 +36,7 @@ function App() {
       <Footer />
     </div>
   );
+  */
 }
 
 export default App;
